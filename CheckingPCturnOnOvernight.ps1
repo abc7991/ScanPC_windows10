@@ -158,7 +158,7 @@ $getdate = get-date -Format "dddd_MM_dd_yyyy";
 $month = (get-date -Format "m").split(" ");$getmonth = $month[0]
 ########################################################################
 #this place to update variable. Update username and place to export report.
-SetPasswordAutoSave -username "truong_tranduy@gameloft.com"
+SetPasswordAutoSave -username "domain_admin"
 $sourcePath = "D:\"
 ########################################################################
 CreateLogFolder -LogFolder $sourcePath -getdate $getdate -getmonth $getmonth
